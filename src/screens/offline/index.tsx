@@ -1,7 +1,8 @@
-import {Button, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 import React from 'react';
 import NetInfo from '@react-native-community/netinfo';
 import {styles} from './styles';
+import Button from 'components/button';
 
 const Offline: React.FC = () => {
   const refreshConnection = () => NetInfo.refresh();

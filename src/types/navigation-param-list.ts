@@ -1,6 +1,10 @@
+import {NativeStackNavigationProp} from '@react-navigation/native-stack';
+
 export type MainStackParamList = {
   Feed: undefined;
-  Search: undefined;
   Saved: undefined;
-  More: undefined;
 };
+
+export interface NavigationInterface {
+  navigation: NativeStackNavigationProp<any>;
+}
